@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+O9HPM2G0q8=",
+  "dgSpecHash": "ol41BKsV4h8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ayush\\source\\repos\\WebSocket Message Server\\WebSocket Message Server\\WebSocket Message Server.csproj",
+  "projectFilePath": "C:\\Users\\Ayush\\Music\\WebSocket-Message-Broadcast\\WebSocket Message Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ayush\\.nuget\\packages\\cocona\\2.2.0\\cocona.2.2.0.nupkg.sha512",
     "C:\\Users\\Ayush\\.nuget\\packages\\cocona.core\\2.2.0\\cocona.core.2.2.0.nupkg.sha512",

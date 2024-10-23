@@ -1451,11 +1451,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ayush\\source\\repos\\WebSocket Message Server\\WebSocket Message Server\\WebSocket Message Server.csproj",
+      "projectUniqueName": "C:\\Users\\Ayush\\Music\\WebSocket-Message-Broadcast\\WebSocket Message Server.csproj",
       "projectName": "WebSocket Message Server",
-      "projectPath": "C:\\Users\\Ayush\\source\\repos\\WebSocket Message Server\\WebSocket Message Server\\WebSocket Message Server.csproj",
+      "projectPath": "C:\\Users\\Ayush\\Music\\WebSocket-Message-Broadcast\\WebSocket Message Server.csproj",
       "packagesPath": "C:\\Users\\Ayush\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ayush\\source\\repos\\WebSocket Message Server\\WebSocket Message Server\\obj\\",
+      "outputPath": "C:\\Users\\Ayush\\Music\\WebSocket-Message-Broadcast\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ayush\\AppData\\Roaming\\NuGet\\NuGet.Config",

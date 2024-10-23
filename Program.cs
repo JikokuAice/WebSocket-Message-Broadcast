@@ -35,16 +35,18 @@ app.AddCommand("Connect-client", async () => {
 
         Console.WriteLine("Client connected");
 
-        var TaskSend = Task.Run(async () => await SendMessage(newClient));
+        var TaskSend = Task.Run(async () => await SendMessage(newClient,clientName));
 
-        Task.WaitAny(TaskSend);
+        var TaskReceived = Task.Run(async () => await receivedMessage(newClient,clientName));
+
+        Task.WaitAny(TaskSend, TaskReceived);
 
         if (newClient.State != WebSocketState.Closed)
         {
             await newClient.CloseAsync(WebSocketCloseStatus.NormalClosure, "", CancellationToken.None);
         }
 
-        Task.WaitAll(TaskSend);
+        Task.WaitAll(TaskSend, TaskReceived);
 
     }
     catch (Exception e)
@@ -81,10 +83,11 @@ app.AddSubCommand("broadcast-server", x => {
 
                 var ws = await httpContext.AcceptWebSocketAsync(null);
                 clients.Add(ws.WebSocket);
-
+                Console.WriteLine($"Welcome client : {clientName}");
                 await BoardCast($"Welcome client : {clientName}");
+                Console.WriteLine($"Current client Count : {clients.Count}");
 
-                await BoardCast($"Current client Count : {clients.Count}");
+                
 
                 Task.Run(() => GetMessage(ws.WebSocket, async (msg, buffer) => {
 
@@ -93,13 +96,17 @@ app.AddSubCommand("broadcast-server", x => {
 
                         var encodedMsg = Encoding.UTF8.GetString(buffer, 0, msg.Count);
 
-                        Console.WriteLine($"{clientName} : " + encodedMsg);
+
+                    
 
                         await BoardCast($"{clientName} : " + encodedMsg);
+
+
                     }
                     else if (msg.MessageType == WebSocketMessageType.Close || ws.WebSocket.State == WebSocketState.Aborted)
                     {
                         clients.Remove(ws.WebSocket);
+                    
                         await BoardCast($"Connection closed by Client :  {clientName}");
                         await ws.WebSocket.CloseAsync(msg.CloseStatus.Value, "", CancellationToken.None);
 
@@ -146,7 +153,7 @@ async Task GetMessage(WebSocket socket, Action<WebSocketReceiveResult, byte[]> h
 
 }
 
-async Task receivedMessage(WebSocket socket)
+async Task receivedMessage(WebSocket socket,string clientName)
 {
 
     byte[] buffer = new byte[1024];
@@ -160,13 +167,17 @@ async Task receivedMessage(WebSocket socket)
         {
             break;
         }
-        string decodedMessage = Encoding.UTF8.GetString(buffer);
-        Console.WriteLine(decodedMessage);
+        string decodedMessage = Encoding.UTF8.GetString(buffer,0,msg.Count);
+        if (decodedMessage.Split(':')[0] == clientName)
+        {
+            Console.WriteLine(decodedMessage);
+        }
+       
     }
 
 }
 
-async Task SendMessage(WebSocket socket)
+async Task SendMessage(WebSocket socket,string clientName)
 {
 
     while (true)

@@ -1,0 +1,33 @@
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\WebSocket Message Server.exe
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\WebSocket Message Server.deps.json
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\WebSocket Message Server.runtimeconfig.json
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\WebSocket Message Server.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\WebSocket Message Server.pdb
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\Cocona.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\Cocona.Core.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\ja-JP\Cocona.resources.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\ko-KR\Cocona.resources.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\ja-JP\Cocona.Core.resources.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\ko-KR\Cocona.Core.resources.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\bin\Debug\net8.0\zh-CN\Cocona.Core.resources.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.csproj.AssemblyReference.cache
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.AssemblyInfoInputs.cache
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.AssemblyInfo.cs
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.csproj.CoreCompileInputs.cache
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.sourcelink.json
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocke.AF937A6F.Up2Date
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\refint\WebSocket Message Server.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.pdb
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.genruntimeconfig.cache
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\ref\WebSocket Message Server.dll
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\WebSocket Message Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\staticwebassets\msbuild.WebSocket Message Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\staticwebassets\msbuild.build.WebSocket Message Server.props
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebSocket Message Server.props
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebSocket Message Server.props
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Ayush\source\repos\WebSocket Message Server\WebSocket Message Server\obj\Debug\net8.0\scopedcss\bundle\WebSocket Message Server.styles.css

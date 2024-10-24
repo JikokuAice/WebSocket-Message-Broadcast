@@ -96,10 +96,7 @@ app.AddSubCommand("broadcast-server", x => {
 
                         var encodedMsg = Encoding.UTF8.GetString(buffer, 0, msg.Count);
 
-
-                    
-
-                        await BoardCast($"{clientName} : " + encodedMsg);
+                        await BoardCast($"{clientName}:" + encodedMsg);
 
 
                     }
@@ -155,6 +152,7 @@ async Task GetMessage(WebSocket socket, Action<WebSocketReceiveResult, byte[]> h
 
 async Task receivedMessage(WebSocket socket,string clientName)
 {
+   
 
     byte[] buffer = new byte[1024];
 
@@ -168,10 +166,13 @@ async Task receivedMessage(WebSocket socket,string clientName)
             break;
         }
         string decodedMessage = Encoding.UTF8.GetString(buffer,0,msg.Count);
-        if (decodedMessage.Split(':')[0] == clientName)
+
+
+        if (decodedMessage.Split(':')[0].ToString() != clientName)
         {
             Console.WriteLine(decodedMessage);
         }
+      
        
     }
 
